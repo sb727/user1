@@ -31,6 +31,7 @@
 
 </head>
 <body>
+<h1>Hello world!~!~!~!</h1>
 <?php echo validation_errors(); ?>
 <?php echo form_open('Login_ctrl/checkUser');
         echo "<div class='login'>
