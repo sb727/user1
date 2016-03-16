@@ -1,0 +1,265 @@
+/*!
+* Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 19px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #dddddd;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #563d7c;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+@media (max-width: 900px) { 
+    .navbar-toggle {
+    display: block;
+}
+.menubar {
+    display: none;
+}
+.menubar ul li {
+    float: none;
+    background-color: #3080a0;
+}
+}
+body {
+    width: 100%;
+    margin:0 auto;
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Myriad Pro;
+    font-size: 13px;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('../img/sider.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.logo{
+    background: url(../img/logo.png) no-repeat center;
+    float:left;
+    width:126px;
+    height:70px;
+}
+
+.top_menu{
+    padding-top: 10px;
+    float:right;
+    margin:0;
+}
+.top_menu li a{
+    color:#838383;
+    font-family: Myriad Pro;
+    font-size: 11px;
+}
+.top_menu >li>a:hover {
+    background-color: transparent;
+    color: #01b7f2;
+}
+.banner {
+    padding-bottom: 30%;
+    background-image: url(../img/banner.png);
+    background-size:100% 100%;
+}
+.title {
+    margin-top: 142px;
+    font-family: Myriad Pro;
+    font-size: 30px;
+    color: #ffffff;
+}
+.search-content {
+    margin-top: 40px;
+}
+.search-content input[type = 'text'] {
+    width: 97%;
+    border-radius: 3px;
+    border-width: 0px;
+    background-color: #ddd;
+}
+.search-content select {
+    width: 97%;
+    border-radius: 3px;
+    border-width: 0px;
+    background-color: #ddd;
+}
+.search-btn {
+    font-size: 11px;
+    color: white;
+    background-color: #98ce44;
+    margin-top: 55px;
+    width: 167px;
+    height: 31px;
+    border: none;
+}
+.popular-content {
+    margin-top: 140px;
+    background-color: gray;
+}
+.popular-content p {
+    margin-bottom: 0px;
+}
+.popular-content ul {
+    padding: 0px;
+}
+.popular-content li {
+    float:left;
+    display:inline;
+}
+.country {
+    margin-top: 24px;
+    color:black;
+    font-size: 16px;
+}
+.city {
+    color: #c5c5c5;
+    font-size: 10px;
+}
+.bluetitle {
+    color:blue;
+    margin-bottom: 12px;
+}
+.blacktitle {
+    margin-bottom: 0px;
+}
+.Travelnews {
+    list-style: none;
+    padding:0px;
+}
+.discover {
+    padding: 0px;
+}
+.discover li{
+    list-style: none;
+    padding-bottom: 26px;
+    color: #838383;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+.discover li:hover:before {
+    color: #01b7f2;
+}
+.discover li:hover {
+    color: #01b7f2;
+}
+.discover li:before {
+    padding-right: 12px;
+    list-style: none;
+    font-family: "FontAwesome";
+    content: "\f04b";
+    color: #838383;
+    font-size: 13px;
+}
+.traveltable {
+    display: table;
+}
+.ttablecell {
+    padding-right: 20px;
+    display: table-cell;
+    vertical-align: top;
+}
+.upbtn {
+    border: none;
+    background: url(../img/upbtn.png) no-repeat center;
+    width:28px;
+    height:27px;
+    padding-top:3px;
+}
+.footer {
+    background-color: white;
+}
+.footerbar {
+    background-color: gray;
+}
+.footer-content {
+    
+    margin-bottom: 116px;
+}
+.content-title {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.search-details {
+    font-size: 11px;
+}
+.midmenu {
+    background-color: white;
+    margin-top: -80px;
+    width:113px;
+    height: 40px;
+    color: #01b7f2;
+    padding-top: 5px;
+    text-align: center;
+}
+.bottom_menu {
+    padding-top: 10px;
+    float:right;
+    margin:0;
+}
+.bottom_menu li a{
+    color:#ffffff;
+    font-family: Myriad Pro;
+    font-size: 11px;
+}
+.bottom_menu >li >a:hover {
+    background-color: transparent;
+    color: #01b7f2;
+}
+.footbtn {
+    margin-top: 10px;
+}
+.login {
+    width:500px;
+    margin:0 auto;
+    margin-top: 200px;
+    border: 2px solid;
+    border-color: #2980B9;
+    border-radius: 4px;
+}
+.label {
+    font-size: 20px;
+    color: #363636;
+}
+.id, .password {
+    margin-top: 37px;
+    margin-left:  118px;
+}
+.btn {
+    margin: 37px 210px 16px;
+
+}
